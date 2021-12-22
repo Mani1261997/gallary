@@ -1,0 +1,30 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron{
+    margin-top: 100px;
+}
+
+.view-toggler{
+position:absolute;
+top: 25px;
+right: 0;
+a{
+    color: #ccc;
+    padding-right: 7px;
+    font-weight: 900;
+    transition: all 0.2s;
+    &:hover{
+    color: #333;
+    }
+}
+.active{
+    color: #333;
+}
+}
+img{
+    margin-top: 30px;
+}
+.img-thumbnail{
+    width: 400px;
+    height: 250px;
+}
